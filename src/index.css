@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.containerTheme {
+    transition: background-color 0.5s ease, color 0.5s ease; 
+}
+
+.dark {
+    background-color: #1a202c; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+.light {
+    background-color: #ffffff; /* Light background color */
+    color: #1a202c; /* Dark text color */
+}
